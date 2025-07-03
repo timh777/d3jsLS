@@ -1,0 +1,28 @@
+{
+  "apiVersion":  "v1",
+  "name":        "D3 Force-Directed Graph",
+  "company":     "My Organization",
+  "companyUrl":  "https://your.company.com",
+  "supportUrl":  "https://your.company.com/support",
+  "version":     "1.0.1",
+  "logoUrl":     "https://storage.googleapis.com/d3js-bucket/logo.png",
+  "description": "A filterable D3.js force-directed graph for Looker Studio.",
+  "devMode":     true,
+  "resources": {
+    "js":     ["https://storage.googleapis.com/d3js-bucket/viz-bundle.js"],
+    "css":    [],
+    "config": "https://storage.googleapis.com/d3js-bucket/viz-config.json"
+  },
+  "components": [
+    {
+      "id":          "d3ForceGraph",
+      "name":        "D3 Force Graph",
+      "description": "An interactive, filterable network graph.",
+      "iconUrl":     "https://storage.googleapis.com/d3js-bucket/icon.png",
+      "resource": {
+        "js":     "https://storage.googleapis.com/d3js-bucket/viz-bundle.js",
+        "config": "https://storage.googleapis.com/d3js-bucket/viz-config.json"
+      }
+    }
+  ]
+}
